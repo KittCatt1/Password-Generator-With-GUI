@@ -29,8 +29,18 @@ public class PasswordGeneratorGUI extends JFrame {
        addGuiComponents();
     }
     private void addGuiComponents(){
-      // creating the title text
+        // creating the title text
         JLabel titleLabel = new JLabel("Caitlin's Password Generator <3");
+        // Increasing font size
+        titleLabel.setFont(new Font("Dialog", Font.ITALIC,32));
+
+        //centre text to the screen
+        titleLabel.setHorizontalAlignment(SwingConstants.HORIZONTAL);
+        //set x.y coordinates and width/height values
+        titleLabel.setBounds(0,10,540,39);
+
+        //add to GUI
+        add(titleLabel);
     }
 }
 
