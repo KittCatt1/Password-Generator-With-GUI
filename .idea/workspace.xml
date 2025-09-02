@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac0df682-f7d0-4ca8-a099-0ec278405677" name="Changes" comment="on line 55 set Varable as PasswordOutput and not PasswordOutPane, after fixing this oversight the result text area work's as expected">
+    <list default="true" id="ac0df682-f7d0-4ca8-a099-0ec278405677" name="Changes" comment="Added toggle buttons and an text input for user to put in thier desired length of passsword">
+      <change afterPath="$PROJECT_DIR$/src/PasswordGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PasswordGeneratorGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordGeneratorGUI.java" afterDir="false" />
     </list>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1756840776123</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added toggle buttons and an text input for user to put in thier desired length of passsword">
+      <created>1756841647168</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756841647168</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +126,7 @@
     <MESSAGE value="Successfully was able to set up the title to display when app loads" />
     <MESSAGE value="Debugging as box does not appear as expected" />
     <MESSAGE value="on line 55 set Varable as PasswordOutput and not PasswordOutPane, after fixing this oversight the result text area work's as expected" />
-    <option name="LAST_COMMIT_MESSAGE" value="on line 55 set Varable as PasswordOutput and not PasswordOutPane, after fixing this oversight the result text area work's as expected" />
+    <MESSAGE value="Added toggle buttons and an text input for user to put in thier desired length of passsword" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added toggle buttons and an text input for user to put in thier desired length of passsword" />
   </component>
 </project>

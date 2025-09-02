@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 // render the GUI Components (frontend)
 // this class will inherit from the JFrame class
 public class PasswordGeneratorGUI extends JFrame {
+    private PasswordGenerator passwordGenerator;
 
     public PasswordGeneratorGUI(){
         // render frame and add a title
@@ -25,6 +26,8 @@ public class PasswordGeneratorGUI extends JFrame {
 
         // center the GUI to the screen
         setLocationRelativeTo(null);
+
+        passwordGenerator = new PasswordGenerator();
 
        addGuiComponents();
     }
@@ -77,22 +80,51 @@ public class PasswordGeneratorGUI extends JFrame {
         //upper case toggle
         JToggleButton uppercaseToggle = new JToggleButton("Uppercase");
         uppercaseToggle.setBounds(25,302,225,56);
+        uppercaseToggle.setFont(new Font("Dialog",Font.TRUETYPE_FONT,26));
         add(uppercaseToggle);
 
         //lower case toggle
         JToggleButton lowercaseToggle = new JToggleButton("Lowercase");
         lowercaseToggle.setBounds(282,302,225,56);
+        lowercaseToggle.setFont(new Font("Dialog",Font.TRUETYPE_FONT,26));
         add(lowercaseToggle);
 
         // numbers toggle
         JToggleButton numbersToggle = new JToggleButton("Numbers");
         numbersToggle.setBounds(25,373,225,56);
+        numbersToggle.setFont(new Font("Dialog",Font.TRUETYPE_FONT,26));
         add(numbersToggle);
 
         // symbols toggle
         JToggleButton symbolsToggle = new JToggleButton("Symbols");
         symbolsToggle.setBounds(282,373,225,56);
+        symbolsToggle.setFont(new Font("Dialog",Font.TRUETYPE_FONT,26));
         add(symbolsToggle);
+
+        // create generate button
+        JButton generateButton = new JButton("Generate");
+        generateButton.setFont(new Font("Dialog", Font.ITALIC,32));
+        generateButton.setBounds(155,477,222,41);
+
+        generateButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                 // validation: genrate a password only when length > 0 and one of the toggled buttons is pressed
+                if(passwordLengthInputArea.getText().length() <=0) return;
+                boolean antToggleSelected = lowercaseToggle.isSelected()||uppercaseToggle.isSelected()||numbersToggle.isSelected()|| symbolsToggle.isSelected();
+
+                //generate password
+                //converts the text to an integer value
+                int passwordLength = Integer.parseInt(passwordLengthInputArea.getText());
+                if(antToggleSelected){
+                    String generatedPassword = passwordGenerator.generatePassword(passwordLength,uppercaseToggle.isSelected(),lowercaseToggle.isSelected(),numbersToggle.isSelected(),symbolsToggle.isSelected());
+
+                    // display password back to the user
+                    passwordOutput.setText(generatedPassword);
+                }
+            }
+        });
+        add(generateButton);
     }
 }
 
