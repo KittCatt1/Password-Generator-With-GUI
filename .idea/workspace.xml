@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac0df682-f7d0-4ca8-a099-0ec278405677" name="Changes" comment="Successfully was able to set up the title to display when app loads">
+    <list default="true" id="ac0df682-f7d0-4ca8-a099-0ec278405677" name="Changes" comment="on line 55 set Varable as PasswordOutput and not PasswordOutPane, after fixing this oversight the result text area work's as expected">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PasswordGeneratorGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordGeneratorGUI.java" afterDir="false" />
     </list>
@@ -85,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1756839907934</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Debugging as box does not appear as expected">
+      <created>1756840621015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756840621015</updated>
+    </task>
+    <task id="LOCAL-00004" summary="on line 55 set Varable as PasswordOutput and not PasswordOutPane, after fixing this oversight the result text area work's as expected">
+      <created>1756840776123</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756840776123</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +116,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting up and following along to the tutorial made by TapTap" />
     <MESSAGE value="Successfully was able to set up the title to display when app loads" />
-    <option name="LAST_COMMIT_MESSAGE" value="Successfully was able to set up the title to display when app loads" />
+    <MESSAGE value="Debugging as box does not appear as expected" />
+    <MESSAGE value="on line 55 set Varable as PasswordOutput and not PasswordOutPane, after fixing this oversight the result text area work's as expected" />
+    <option name="LAST_COMMIT_MESSAGE" value="on line 55 set Varable as PasswordOutput and not PasswordOutPane, after fixing this oversight the result text area work's as expected" />
   </component>
 </project>
