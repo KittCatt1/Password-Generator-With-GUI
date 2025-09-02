@@ -52,7 +52,7 @@ public class PasswordGeneratorGUI extends JFrame {
         // add scrolling in case output is too big
         JScrollPane passwordOutPane = new JScrollPane(passwordOutput);
 
-        passwordOutput.setBounds(25,97,479,70);
+        passwordOutPane.setBounds(25,97,479,70);
 
         //create a pink border around the text area
         passwordOutPane.setBorder(BorderFactory.createLineBorder(Color.pink));
