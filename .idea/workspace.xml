@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac0df682-f7d0-4ca8-a099-0ec278405677" name="Changes" comment="Setting up and following along to the tutorial made by TapTap">
+    <list default="true" id="ac0df682-f7d0-4ca8-a099-0ec278405677" name="Changes" comment="Successfully was able to set up the title to display when app loads">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PasswordGeneratorGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordGeneratorGUI.java" afterDir="false" />
     </list>
@@ -78,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1756839425443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Successfully was able to set up the title to display when app loads">
+      <created>1756839907934</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756839907934</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting up and following along to the tutorial made by TapTap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up and following along to the tutorial made by TapTap" />
+    <MESSAGE value="Successfully was able to set up the title to display when app loads" />
+    <option name="LAST_COMMIT_MESSAGE" value="Successfully was able to set up the title to display when app loads" />
   </component>
 </project>
