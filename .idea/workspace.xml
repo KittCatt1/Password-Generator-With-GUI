@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac0df682-f7d0-4ca8-a099-0ec278405677" name="Changes" comment="Added toggle buttons and an text input for user to put in thier desired length of passsword">
-      <change afterPath="$PROJECT_DIR$/src/PasswordGenerator.java" afterDir="false" />
+    <list default="true" id="ac0df682-f7d0-4ca8-a099-0ec278405677" name="Changes" comment="Added a background image to the app to make it more appealing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PasswordGeneratorGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordGeneratorGUI.java" afterDir="false" />
     </list>
@@ -27,28 +26,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KittCatt1&quot;
+  }
+}</component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="b3e496f7-5590-43d9-9852-a3d1c152756b" />
+    <option name="defaultAccountId" value="7866429e-dac1-44f3-a56c-6694cc340cf4" />
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KittCatt1/Password-Generator-With-GUI.git&quot;,
+    &quot;accountId&quot;: &quot;7866429e-dac1-44f3-a56c-6694cc340cf4&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="329fvIHZIsAQZhRkchGdsKRQyur" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
@@ -63,6 +87,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,6 +103,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756837943932</updated>
+      <workItem from="1756890936944" duration="1110000" />
+      <workItem from="1756892075205" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up and following along to the tutorial made by TapTap">
       <created>1756839425443</created>
@@ -110,6 +144,9 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -127,6 +164,7 @@
     <MESSAGE value="Debugging as box does not appear as expected" />
     <MESSAGE value="on line 55 set Varable as PasswordOutput and not PasswordOutPane, after fixing this oversight the result text area work's as expected" />
     <MESSAGE value="Added toggle buttons and an text input for user to put in thier desired length of passsword" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added toggle buttons and an text input for user to put in thier desired length of passsword" />
+    <MESSAGE value="Added a background image to the app to make it more appealing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a background image to the app to make it more appealing" />
   </component>
 </project>
