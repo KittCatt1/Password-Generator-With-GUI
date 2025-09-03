@@ -2,6 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.net.URL;
+import javax.imageio.ImageIO;
 
 // render the GUI Components (frontend)
 // this class will inherit from the JFrame class
@@ -27,6 +30,8 @@ public class PasswordGeneratorGUI extends JFrame {
         // center the GUI to the screen
         setLocationRelativeTo(null);
 
+        // setting custom background panel
+        setContentPane(new BackgroundPanel());
         passwordGenerator = new PasswordGenerator();
 
        addGuiComponents();
@@ -125,6 +130,28 @@ public class PasswordGeneratorGUI extends JFrame {
             }
         });
         add(generateButton);
+    }
+}
+
+class BackgroundPanel extends JPanel{
+    private BufferedImage backgroundimage;
+    public BackgroundPanel(){
+        try {
+            URL imageURL = new URL("https://wallpapercave.com/wp/wp6691926.jpg");
+            backgroundimage = ImageIO.read(imageURL);
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+
+        setLayout(null);
+    }
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        if (backgroundimage != null) {
+            g.drawImage(backgroundimage, 0, 0, getWidth(), getHeight(), this);
+        }
     }
 }
 
