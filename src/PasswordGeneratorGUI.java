@@ -86,30 +86,40 @@ public class PasswordGeneratorGUI extends JFrame {
         JToggleButton uppercaseToggle = new JToggleButton("Uppercase");
         uppercaseToggle.setBounds(25,302,225,56);
         uppercaseToggle.setFont(new Font("Dialog",Font.TRUETYPE_FONT,26));
+        uppercaseToggle.setBackground(Color.PINK);
+        uppercaseToggle.setForeground(Color.BLACK);
         add(uppercaseToggle);
 
         //lower case toggle
         JToggleButton lowercaseToggle = new JToggleButton("Lowercase");
         lowercaseToggle.setBounds(282,302,225,56);
         lowercaseToggle.setFont(new Font("Dialog",Font.TRUETYPE_FONT,26));
+        lowercaseToggle.setBackground(Color.PINK);
+        lowercaseToggle.setForeground(Color.BLACK);
         add(lowercaseToggle);
 
         // numbers toggle
         JToggleButton numbersToggle = new JToggleButton("Numbers");
         numbersToggle.setBounds(25,373,225,56);
         numbersToggle.setFont(new Font("Dialog",Font.TRUETYPE_FONT,26));
+        numbersToggle.setBackground(Color.PINK);
+        numbersToggle.setForeground(Color.BLACK);
         add(numbersToggle);
 
         // symbols toggle
         JToggleButton symbolsToggle = new JToggleButton("Symbols");
         symbolsToggle.setBounds(282,373,225,56);
         symbolsToggle.setFont(new Font("Dialog",Font.TRUETYPE_FONT,26));
+        symbolsToggle.setBackground(Color.PINK);
+        symbolsToggle.setForeground(Color.BLACK);
         add(symbolsToggle);
 
         // create generate button
         JButton generateButton = new JButton("Generate");
         generateButton.setFont(new Font("Dialog", Font.ITALIC,32));
         generateButton.setBounds(155,477,222,41);
+        generateButton.setBackground(Color.PINK);
+        generateButton.setForeground(Color.BLACK);
 
         generateButton.addActionListener(new ActionListener() {
             @Override
